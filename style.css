@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body {
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+}
+
+.link-tree {
+    display: grid;
+    place-items: center;
+    gap: 10px;
+    flex-direction: column;
+
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    max-height: 800px;
+    margin: 30px auto;
+}
+
+.link-tree img {
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #60EFFF;
+    box-sizing: border-box;
+    
+}
+
+.link-tree h1 {
+
+    /* @instagram */
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+
+/* identical to box height */
+
+text-align: center;
+color: #60EFFF;
+
+}
+
+.link-tree a {
+
+    width: 326px;
+    height: 49px;
+    text-align: center;
+    padding: 15px;
+    
+    border: 2px solid #60EFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    /* Link */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+
+/* identical to box height */
+
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #60EFFF;
+    position: relative;
+    cursor: pointer;
+    transition: all 400ms ease;
+    flex: none;
+
+}
+
+.assets {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20px 20px 20px 20px 20px;
+    grid-gap: 30px;
+
+
+    
+}
+.link-tree button{
+    position: static;
+    overflow: hidden;
+    transition: .2s;
+  }
+  
+  .button:hover{
+    color: #eee;
+    background: #60EFFF;
+    box-shadow: 0 0 10px #60EFFF, 0 0 15px #35AFFF, 0 0 30px #0061FF;  
+    transition-delay: 0.1s;
+}
